@@ -1,0 +1,32 @@
+.gridarea {
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+  object-fit: cover;
+    left: 50%;
+}
+
+.grid {
+    align-self: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(9, 50px);
+}
+
+.sudoku-cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 50px;
+  background-color: #999;
+}
+
+input[type="submit"] {
+    align-content: center;
+}
+

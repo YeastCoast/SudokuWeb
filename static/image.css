@@ -1,0 +1,7 @@
+.landing-page-image {
+  width: 500px;
+  height: 500px;
+  align-self: center;
+  margin-top: 30px;
+  object-fit: cover;
+}

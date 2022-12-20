@@ -1,0 +1,1 @@
+Django app to solve sudokus.

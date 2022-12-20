@@ -1,0 +1,21 @@
+{% extends 'sudoku_web/base.html' %}
+
+{% block style %}
+    <link rel="stylesheet" href="/static/manual.css">
+{% endblock %}
+
+
+{% block content %}
+    <form action="" method="POST" class="gridarea">
+
+        {% csrf_token %}
+        <div class="gridArea">
+            <div class="grid">
+                {{ form }}
+            </div>
+            <input type="submit" value="Submit" class="btn btn-secondary">
+        </div>
+    </form>
+
+{% endblock %}
+

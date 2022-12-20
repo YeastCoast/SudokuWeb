@@ -1,0 +1,112 @@
+.landing-page-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+}
+.landing-page-top-container {
+  width: 100%;
+  height: 256px;
+  display: flex;
+  opacity: 0.75;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("numbers-wallpaper-4096x1536.jpg");
+  background-position: 0% 40%;
+}
+.landing-page-navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 300px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: 80px;
+  justify-content: space-between;
+}
+.landing-page-logo {
+  color: #000000;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+.landing-page-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.landing-page-right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page-links-container {
+  gap: 0;
+  width: 737px;
+  height: 60px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.landing-page-button {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-right: 0px;
+  letter-spacing: 0.1px;
+  padding-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.landing-page-button1 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-right: 0px;
+  letter-spacing: 0.1px;
+  padding-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.landing-page-button2 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  padding-left: 0px;
+  padding-right: 0px;
+  letter-spacing: 0.1px;
+  padding-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+
