@@ -61,3 +61,7 @@ class ManualView(generic.View):
             form = SudokuGridForm(dynamic_fields=self.sudoku_dict)
             return render(request, self.template_name, {'form': form})
 
+
+class redirect_view(generic.View):
+    def get(self, request):
+        return redirect('/SudokuSolver/')

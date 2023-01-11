@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+import sudoku_web.views as sw_views
 
 app_name = 'SudokuWeb'
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', sw_views.redirect_view.as_view()),
     path('SudokuSolver/', include('sudoku_web.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
