@@ -49,7 +49,7 @@
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
-  padding: 0.5rem;
+  padding: 0.1rem;
   font-family: Poppins;
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
