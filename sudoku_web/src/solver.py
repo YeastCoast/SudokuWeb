@@ -21,6 +21,7 @@ def solve_sudoku(img):
     #plt.imshow(transformed_grid)
     #plt.show()
     sudoku_array = digit_recognition(transformed_grid, model_path)
+    print(sudoku_array)
     #print(sudoku_array)
     solved_array, non_zero_coords = solver(sudoku_array)
     solved_warped = draw_digits(solved_array, non_zero_coords, transformed_grid)

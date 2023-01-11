@@ -120,6 +120,7 @@ def check_input(grid):
 
     return True
 
+
 def solver(grid):
     coords = np.argwhere(grid == 0)
     if check_input(grid):

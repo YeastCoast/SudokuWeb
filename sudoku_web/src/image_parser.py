@@ -2,8 +2,6 @@ import tensorflow as tf
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-import math
-from tensorflow import keras
 
 label_names = list(range(1, 10))
 
